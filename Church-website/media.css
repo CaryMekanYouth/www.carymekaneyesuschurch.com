@@ -1,0 +1,134 @@
+body {
+  font-family: "Karla", sans-serif;
+}
+
+/* .tlc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  box-sizing: content-box;
+} */
+
+.tlc-lists {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  color: #fff;
+  background-color: #08233b;
+  list-style: none;
+  display: inline-block;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.tlc-list {
+  color: #fff;
+  font-size: 1.2rem;
+  display: inline-block;
+  align-items: center;
+  margin-right: 2.4rem;
+  margin-left: 2.4rem;
+}
+
+.tlc-icon {
+  margin-right: 8px;
+  height: 1.2rem;
+  color: #fff;
+}
+
+.tlc-img {
+  transform: translateY(0.2rem);
+  padding-left: 1.2rem;
+}
+
+.header {
+  transform: translateY(-3rem);
+}
+
+.header-img {
+  height: 8rem;
+  transform: translate(0, 100px);
+}
+
+.header-list {
+  margin-left: 5.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.mission {
+  background-color: #4b85ba;
+  padding: 1.5rem 2rem;
+}
+
+.mission-header {
+  font-size: 2.2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.mission-statement {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-right: 1.2rem;
+  text-align: left;
+  color: #e8e8e8;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  padding-left: 7rem;
+  margin-top: 3rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover {
+  color: #63a9eb;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #63a9eb;
+  border-radius: 1.5rem;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  background-color: #d07010;
+  padding: 1rem 2.75rem;
+}
+
+.social-header {
+  margin-top: 3.2rem;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.logo-img {
+  align-items: center;
+  margin-right: 6.5rem;
+  margin-bottom: 4.5rem;
+  height: 5.5rem;
+}
+
+.social-media {
+  padding: 4rem;
+}
